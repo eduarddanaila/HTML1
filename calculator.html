@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+<style>
+body{
+      background-size: 100%;
+}
+section{
+  width:auto;
+  background-color: rgb(45, 129, 115);
+  color:blue;
+  text-align:center;
+}
+input{
+  width: 98px;
+  background-color: crimson;
+}
+button{
+  width: 50px;
+  border-radius: 25%;
+  border-color: rgb(55, 92, 55);
+  background-color: rgb(89, 196, 112);
+  color: rgb(44, 37, 146);
+}
+</style>
+</head>
+<body>
+  <main>
+    <Section>
+      <table>
+        <input type="number" value="0" id="counter" readonly>
+        <br>
+        <br>
+        <div id="counterButtons">
+           <td> 
+             <button onClick="1"()>1</button>
+          </td>
+          <td>
+            <button onClick=>2</button>
+          </td>
+            <button onClick=reset()>Reset</button>
+            <button onClick=plusOne()>+1</button>
+            <button onClick=plusFive()>+5</button>
+            <button onClick=minusTen()>-10</button>
+            <button onClick=plusTen()>+10</button>
+        </div>
+      </table>
+      </Section>
+       <section id="output">
+      </section> 
+    </main>
+
+  <script src="./calculator.js"></script>  
+
+</body>
+</html>
